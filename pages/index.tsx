@@ -1,14 +1,14 @@
-import React from 'react';
-import { CompletedChallenges } from '../components/CompletedChallenges';
-import { Countdown } from '../components/Countdown';
-import { ExperienceBar } from '../components/ExperienceBar';
-import { Profile } from '../components/Profile';
-import styles from '../styles/pages/Home.module.css';
+import styles from 'styles/pages/Home.module.css';
 import Head from 'next/head';
-import { ChallengeBox } from '../components/ChallengeBox';
-import { CountdownProvider } from '../contexts/CountdownContext';
 import { GetServerSideProps } from 'next';
-import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { CountdownProvider, ChallengesProvider } from 'contexts';
+import {
+  CompletedChallenges,
+  Countdown,
+  ExperienceBar,
+  Profile,
+  ChallengeBox,
+} from 'components';
 
 interface HomeProps {
   level: number;
