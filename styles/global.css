@@ -28,7 +28,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none;
+
+  outline-color: rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -40,7 +41,7 @@ body,
 input,
 textarea,
 button {
-  font: 400 1rem "Inter", sans-serif;
+  font: 400 1rem 'Inter', sans-serif;
 }
 
 button {
