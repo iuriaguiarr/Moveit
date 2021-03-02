@@ -12,7 +12,7 @@ In the future, I intend to add an authentication system and also a ranking syste
 
 ## Usage
 To use it, just go to:
-https://mooveit.vercel.app/
+https://time-to-move-lake.vercel.app/
 
 
 ## Contributing
